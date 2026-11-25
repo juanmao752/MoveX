@@ -7,7 +7,7 @@
 <p align="center"><strong>在 Mac 访达里，按 ⌘X 剪切文件，按 ⌘V 移到新位置。</strong></p>
 
 <p align="center">
-  <a href="https://github.com/euanlin0393-oss/MoveX/raw/refs/heads/downloads/MoveX-1.0.0-Universal.dmg">下载 MoveX · Download</a>
+  <a href="https://github.com/juanmao752/MoveX/raw/refs/heads/downloads/MoveX-1.0.0-Universal.dmg">下载 MoveX · Download</a>
   · <a href="#english">English</a>
   · <a href="LICENSE">MIT License</a>
 </p>
@@ -26,7 +26,7 @@
 
 ## 安装
 
-1. 下载 [MoveX-1.0.0-Universal.dmg](https://github.com/euanlin0393-oss/MoveX/raw/refs/heads/downloads/MoveX-1.0.0-Universal.dmg)，把 `MoveX.app` 拖到「应用程序」。
+1. 下载 [MoveX-1.0.0-Universal.dmg](https://github.com/juanmao752/MoveX/raw/refs/heads/downloads/MoveX-1.0.0-Universal.dmg)，把 `MoveX.app` 拖到「应用程序」。
 2. 首次打开时，macOS 可能提示无法验证应用。这个版本使用临时签名（ad-hoc），未通过 Apple 公证。如果你确认下载来源并信任该文件，可在尝试打开后，前往「系统设置 → 隐私与安全性」，点击「仍要打开」。[Apple 安装说明](https://support.apple.com/zh-cn/102445)
 3. 按应用提示，前往「系统设置 → 隐私与安全性 → 辅助功能」，开启 MoveX 的权限。MoveX 用这个权限在访达里识别快捷键，并区分文件选择与文本输入。
 
@@ -47,7 +47,7 @@ MoveX is a native macOS menu bar app for moving files and folders in Finder and 
 - Press **Esc** in Finder or cancel from the menu bar to clear the pending move. Copying something else or changing the clipboard also cancels it. Finder text fields keep their usual shortcuts.
 - Pause MoveX, toggle sound, choose a menu bar icon, or enable launch at login from the menu bar.
 
-**Install.** Download [MoveX-1.0.0-Universal.dmg](https://github.com/euanlin0393-oss/MoveX/raw/refs/heads/downloads/MoveX-1.0.0-Universal.dmg) and drag MoveX into Applications. This build is ad-hoc signed and has no Apple notarization. If macOS blocks the first launch and you trust the download, try opening it first, then use **System Settings → Privacy & Security → Open Anyway**. Enable MoveX under **Privacy & Security → Accessibility** to let it handle shortcuts and detect Finder text fields. [Apple support](https://support.apple.com/en-us/102445)
+**Install.** Download [MoveX-1.0.0-Universal.dmg](https://github.com/juanmao752/MoveX/raw/refs/heads/downloads/MoveX-1.0.0-Universal.dmg) and drag MoveX into Applications. This build is ad-hoc signed and has no Apple notarization. If macOS blocks the first launch and you trust the download, try opening it first, then use **System Settings → Privacy & Security → Open Anyway**. Enable MoveX under **Privacy & Security → Accessibility** to let it handle shortcuts and detect Finder text fields. [Apple support](https://support.apple.com/en-us/102445)
 
 **Build.** Install the Xcode Command Line Tools with Swift, then run `./scripts/build.sh` for the app or `./scripts/build-dmg.sh` for the disk image.
 
