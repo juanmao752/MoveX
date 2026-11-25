@@ -1,6 +1,6 @@
 # MoveX v1.0.0
 
-[MoveX 项目首页](https://github.com/euanlin0393-oss/MoveX) · [下载 DMG](https://github.com/euanlin0393-oss/MoveX/raw/refs/heads/downloads/MoveX-1.0.0-Universal.dmg)
+[MoveX 项目首页](https://github.com/juanmao752/MoveX) · [下载 DMG](https://github.com/juanmao752/MoveX/raw/refs/heads/downloads/MoveX-1.0.0-Universal.dmg)
 
 MoveX 的第一个版本。选中访达或桌面上的文件，按 **⌘X** 标记为待移动，再到目标文件夹按 **⌘V**。
 
